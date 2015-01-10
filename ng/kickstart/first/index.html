@@ -6,7 +6,10 @@
     </head>
 
     <body>
-        <div ng-app="" ng-init="name = 'World'">Hello, {{name}}!!</div>
+        <div ng-app="" ng-init="name = 'World'">
+            <input type="text" ng-model="name">
+            <h1>Hello, {{name}}!!</h1>
+        </div>
         <script type="text/javascript" src="../vendor/angular.min.js"></script>
     </body>
 </html>
